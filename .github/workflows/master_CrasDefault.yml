@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'CrasDefault'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_87333ff1e22d4f268a959e5dd7346620 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_c1f9ac1f191443cf80ba639d041aba16 }}
         package: .
