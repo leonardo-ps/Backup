@@ -1,0 +1,45 @@
+.container-servicos {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    text-rendering: optimizeLegibility;
+    background: linear-gradient(0deg, rgba(167, 62, 160, 1) 2%, rgba(213, 79, 219, 1) 52%, #ba55d3 82%);
+}
+
+.titulo-servicos {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 1.5rem;
+}
+
+.content-servicos {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.content-servicos .servicos {
+    height: 400px;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.content-servicos .servicos img {
+    height: 250px;
+}
+
+.content-servicos .servicos h3 {
+    color: rgb(255, 255, 255);
+    font-size: 1.7rem;
+    margin-top: .8rem;
+}

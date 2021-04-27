@@ -1,0 +1,54 @@
+.content{
+
+    display: flex;
+}
+.main { 
+    width: 95%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gauges {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxCima {
+    width: 90%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxGraph {
+    width: 90%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.boxDate {
+    background: black;
+    width: 23%;
+    height: 80%;
+}
+
+.boxCenter {
+    width: 100%;
+    
+}
+
+.velocimetro{
+    display: flex;
+    justify-content: space-evenly;
+}

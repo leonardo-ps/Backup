@@ -1,0 +1,83 @@
+.container-time {
+    height: 109vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-rendering: optimizeLegibility;
+}
+
+.container-time h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.divisor-titulo {
+    background: black;
+    width: 15%;
+    height: 2.5px;
+    margin-top: 2rem;
+}
+
+.box-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45%;
+    width: 100%;
+}
+
+.detalhe1 {
+    width: 3%;
+    height: 50%;
+    background-color: #ffffff;
+}
+
+.equipe {
+    display: flex;
+    width: 80%;
+}
+
+.box-pessoa {
+    display: flex;
+    height: 78%;
+}
+
+.foto-pessoa {
+    height: 100%;
+    width: 50%;
+}
+
+.foto-pessoa img {
+    width: 168px;
+    height: 168px;
+    border-radius: 50%;
+}
+
+.info-pessoa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 25vh;
+    width: 45%;
+}
+
+.info-pessoa p {
+    color: black;
+    width: 100%;
+}
+
+.info-pessoa h2 {
+    font-size: 1.2rem;
+}
+
+.info-pessoa h3 {
+    color: #ba55d3;
+}
+
+.detalhe2 {
+    width: 3%;
+    height: 50%;
+    background-color: #ffffff;
+}
